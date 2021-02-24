@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}
+  Index Page
+{% endblock title %}
+
+{% block content %}
+  <center>
+      <form action="{% url 'app:index' %}" method="POST">
+        Username : <input type="text" name="username" id="username">
+        Password : <input type="password" name="pass" id="pass">
+
+        <input type="submit" value="Submit">
+      </form>
+  </center>
+{% endblock content %}
