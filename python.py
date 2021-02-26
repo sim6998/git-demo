@@ -1,7 +1,5 @@
 # dict 
 
-
-#WORLD
 d = {'name':'smit',"age":22}
 
 print(d)
