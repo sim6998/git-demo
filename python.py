@@ -1,11 +1,16 @@
 # dict 
 
+<<<<<<< HEAD
+=======
+####bSBHIBCHSBCJBJHFB
+#WORLD
+>>>>>>> dev
 d = {'name':'smit',"age":22}
 
 print(d)
 
 d['salary'] = 20000
-
+d['pet_name'] = 'sam'
 print(d)
 
 print('Keys in DIct : ',list(d.keys()))
