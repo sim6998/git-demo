@@ -1,10 +1,8 @@
 # dict 
 
-<<<<<<< HEAD
-=======
 ####bSBHIBCHSBCJBJHFB
 #WORLD
->>>>>>> dev
+
 d = {'name':'smit',"age":22}
 
 print(d)
